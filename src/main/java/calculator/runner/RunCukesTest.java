@@ -13,7 +13,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
                     "src/main/java/calculator/borrowingCalculatorTests/Features/SampleTest.feature"
                    }
 
-        ,plugin = {"pretty", "html:target/site/cucumber-pretty", "json:target/cucumber.json"}
+        ,plugin = {"pretty", "html:target/site/cucumber-pretty",
+                    "json:target/cucumber.json"}
 
         ,glue = {"calculator.borrowingCalculatorTests.StepDefinitions"}
 

@@ -67,11 +67,6 @@
             <version>5.3.0</version>
         </dependency>
         <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>3.1.2</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
             <version>2.20.0</version>
@@ -98,11 +93,6 @@
             <artifactId>cucumber-java</artifactId>
             <version>2.4.0</version>
         </dependency>
-        <!--dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-junit</artifactId>
-            <version>6.6.0</version>
-        </dependency -->
     </dependencies>
 
 

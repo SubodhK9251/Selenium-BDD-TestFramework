@@ -1,0 +1,630 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9109141999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleTest.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify calculator provides borrowing estimate for a person with valid set of data",
+        "description": "",
+        "id": "borrowing-calculator-functionality-test;verify-calculator-provides-borrowing-estimate-for-a-person-with-valid-set-of-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 729401001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleTest.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 185916400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches borrowing calculator application on browser",
+            "match": {
+              "location": "SampleTest.user_launches_borrowing_calculator_application_on_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 99734701,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User fills personal details \"Single\", \"0\", \"Home to live in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Single",
+                  "offset": 29
+                },
+                {
+                  "val": "0",
+                  "offset": 39
+                },
+                {
+                  "val": "Home to live in",
+                  "offset": 44
+                }
+              ],
+              "location": "SampleTest.user_fills_personal_details(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180495100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User fills earning details \"80000\", \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "80000",
+                  "offset": 28
+                },
+                {
+                  "val": "10000",
+                  "offset": 37
+                }
+              ],
+              "location": "SampleTest.user_fills_earning_details(String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 367399800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fills expense details like  \"500\", \"0\", \"100\", \"0\", \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 34
+                },
+                {
+                  "val": "0",
+                  "offset": 41
+                },
+                {
+                  "val": "100",
+                  "offset": 46
+                },
+                {
+                  "val": "0",
+                  "offset": 53
+                },
+                {
+                  "val": "10000",
+                  "offset": 58
+                }
+              ],
+              "location": "SampleTest.user_fills_expense_details_like(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5082006700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on calculate button to see how much he can borrow",
+            "match": {
+              "location": "SampleTest.user_clicks_on_calculate_button_to_see_how_much_he_can_borrow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57058101,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify borrowing calculator provides an estimate that user can borrow and validate the estimate \"$428,000\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$428,000",
+                  "offset": 97
+                }
+              ],
+              "location": "SampleTest.verify_borrowing_calculator_provides_an_estimate_that_user_can_borrow_and_validate_the_estimate_is_displayed(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7452281399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleTest.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify calculator provides borrowing estimate for a person with valid set of data",
+        "description": "",
+        "id": "borrowing-calculator-functionality-test;verify-calculator-provides-borrowing-estimate-for-a-person-with-valid-set-of-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 729578801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleTest.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 69304600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches borrowing calculator application on browser",
+            "match": {
+              "location": "SampleTest.user_launches_borrowing_calculator_application_on_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 80304400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User fills personal details \"Single\", \"0\", \"Home to live in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Single",
+                  "offset": 29
+                },
+                {
+                  "val": "0",
+                  "offset": 39
+                },
+                {
+                  "val": "Home to live in",
+                  "offset": 44
+                }
+              ],
+              "location": "SampleTest.user_fills_personal_details(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182410000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User fills earning details \"70000\", \"8000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "70000",
+                  "offset": 28
+                },
+                {
+                  "val": "8000",
+                  "offset": 37
+                }
+              ],
+              "location": "SampleTest.user_fills_earning_details(String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 356685200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fills expense details like  \"700\", \"0\", \"100\", \"0\", \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "700",
+                  "offset": 34
+                },
+                {
+                  "val": "0",
+                  "offset": 41
+                },
+                {
+                  "val": "100",
+                  "offset": 46
+                },
+                {
+                  "val": "0",
+                  "offset": 53
+                },
+                {
+                  "val": "10000",
+                  "offset": 58
+                }
+              ],
+              "location": "SampleTest.user_fills_expense_details_like(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5085696200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on calculate button to see how much he can borrow",
+            "match": {
+              "location": "SampleTest.user_clicks_on_calculate_button_to_see_how_much_he_can_borrow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58415400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify borrowing calculator provides an estimate that user can borrow and validate the estimate \"$347,000\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$347,000",
+                  "offset": 97
+                }
+              ],
+              "location": "SampleTest.verify_borrowing_calculator_provides_an_estimate_that_user_can_borrow_and_validate_the_estimate_is_displayed(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8939522199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleTest.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify clicking on start over button clears the form",
+        "description": "",
+        "id": "borrowing-calculator-functionality-test;verify-clicking-on-start-over-button-clears-the-form;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 815600400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleTest.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 59635801,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User launches borrowing calculator application on browser",
+            "match": {
+              "location": "SampleTest.user_launches_borrowing_calculator_application_on_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 224279900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User fills earning details \"80000\", \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "80000",
+                  "offset": 28
+                },
+                {
+                  "val": "10000",
+                  "offset": 37
+                }
+              ],
+              "location": "SampleTest.user_fills_earning_details(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 481494499,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User fills expense details like  \"500\", \"0\", \"100\", \"0\", \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 34
+                },
+                {
+                  "val": "0",
+                  "offset": 41
+                },
+                {
+                  "val": "100",
+                  "offset": 46
+                },
+                {
+                  "val": "0",
+                  "offset": 53
+                },
+                {
+                  "val": "10000",
+                  "offset": 58
+                }
+              ],
+              "location": "SampleTest.user_fills_expense_details_like(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143597700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on start over button",
+            "match": {
+              "location": "SampleTest.user_clicks_on_start_over_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125747299,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Verify form gets cleared",
+            "match": {
+              "location": "SampleTest.verify_form_gets_cleared()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8217957700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleTest.setup()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Verify the scenario where borrowing calculator is unable to provide an estimate based on data entered by user",
+        "description": "",
+        "id": "borrowing-calculator-functionality-test;verify-the-scenario-where-borrowing-calculator-is-unable-to-provide-an-estimate-based-on-data-entered-by-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 719539800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleTest.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 65638600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User launches borrowing calculator application on browser",
+            "match": {
+              "location": "SampleTest.user_launches_borrowing_calculator_application_on_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 424948200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User fills expense details like  \"1\", \"0\", \"0\", \"0\", \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 34
+                },
+                {
+                  "val": "0",
+                  "offset": 39
+                },
+                {
+                  "val": "0",
+                  "offset": 44
+                },
+                {
+                  "val": "0",
+                  "offset": 49
+                },
+                {
+                  "val": "0",
+                  "offset": 54
+                }
+              ],
+              "location": "SampleTest.user_fills_expense_details_like(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5139568800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User clicks on calculate button to see how much he can borrow",
+            "match": {
+              "location": "SampleTest.user_clicks_on_calculate_button_to_see_how_much_he_can_borrow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34127299,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify application throws unable to estimate message",
+            "match": {
+              "location": "SampleTest.verify_application_throws_unable_to_estimate_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Borrowing calculator functionality test",
+    "description": "",
+    "id": "borrowing-calculator-functionality-test",
+    "keyword": "Feature",
+    "uri": "src/main/java/calculator/borrowingCalculatorTests/Features/SampleTest.feature"
+  }
+]
